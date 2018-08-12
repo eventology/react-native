@@ -23,7 +23,7 @@ let register = function () {
   // noop
 };
 
-if (__DEV__) {
+if (false) {
   const AppState = require('AppState');
   const WebSocket = require('WebSocket');
   /* $FlowFixMe(>=0.54.0 site=react_native_oss) This comment suppresses an
